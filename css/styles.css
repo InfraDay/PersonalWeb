@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    height: 100vh;
+    position: relative;
+};
+
+header {
+    height: 100vh;
+    background-color: #606163;
+    background-size: cover;
+};
+
+#headtext {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: floralwhite;
+    width: fit-content;
+    align-content: center;
+    text-align: center;
+};
+
+#head a {
+    font-size: 96px;
+};
+
+#head span {
+    font-size: 36px;
+};
+
+#projects {
+    position: relative;
+    height: 50vh;
+    background-color: #d4d4d4;
+    background-size: cover;
+    color: #3d3f42;
+    border-bottom: thin solid #3d3f42;
+};
+
+#projectstitle {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    text-align: center;
+    font-size: 48px;
+};
+
+#projectsrow {
+    position: relative;
+    top: 24%;
+    left: 10%;
+    width: 80%;
+};
+
+.card {
+    background-color: transparent;
+    border: transparent;
+};
+
+.card a {
+    font-size: 2.5rem;
+    color: #3d3f42;
+    text-decoration: none;
+};
+
+.card-img-top {
+    border-radius: 50%;
+    height: 128px;
+    width: 128px;
+};
+
+#links {
+    position: relative;
+    height: 50vh;
+    background-color: #d4d4d4;
+    background-size: cover;
+    color: #3d3f42;
+    border-bottom: 2px #343f42;
+};
+
+#linkstitle {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    text-align: center;
+    font-size: 48px;
+};
+
+#linkrow {
+    position: relative;
+    top: 36%;
+    left: 10%;
+    width: 80%;
+};
+
+.border {
+    border-color: #343f42;
+};
+
+.spacer {
+    padding-right: 0.2vh;
+    padding-left: 0.2vh;
+};
+
+.link {
+    text-align: center;
+    font-size: 24px;
+};
+
+.fa-3x {
+    color: #3d3f42;
+};
+
+.fa-3x:hover {
+    color: #838383;
+};
+
+@media screen and (max-height: 762px) and (max-width: 762px) {
+    #projects {
+        height: 130vh;
+    };
+
+    #projectsrow {
+        padding-top: 15px;
+    };
+
+    #links {
+        height: 90vh;
+    };
+
+    #linkstitle {
+        top: 15%;
+    };
+
+    #linkrow {
+        padding-top: 15px;
+    };
+
+    .link {
+        margin-bottom: 25px;
+    };
+
+    .card a {
+        font-size: 1.5rem;
+    };
+
+    .card-img-top {
+        height: 128px;
+        width: 128px;
+    };
+};
